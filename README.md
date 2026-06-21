@@ -1,3 +1,4 @@
+
 # AI-Powered-Adaptive-DSA-Learning-and-Interview-Preparation-Platform
 
 A personal DSA practice tracker that helps you track your preparation, schedule revisions, and monitor your interview readiness.
@@ -109,4 +110,5 @@ npm install
 
 **Santhiya** — B.Tech CSE
 - Target Role: Software Engineer
-- GitHub: [@SANTHIYAKARUPPANAN](https://github.com/SANTHIYAKARUPPANAN)
+- GitHub: [@SANTHIYAKARUPPANAN](https://github.com/SANTHIYAKARUPPANAN)\
+  
