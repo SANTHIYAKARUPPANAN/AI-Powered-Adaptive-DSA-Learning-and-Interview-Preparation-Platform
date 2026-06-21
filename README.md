@@ -76,3 +76,37 @@ A personal DSA practice tracker that helps you track your preparation, schedule 
 │   └── package.json
 
 └── README.md
+
+⚙️ Local Setup
+
+Backend
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+Frontend
+```bash
+cd frontend
+npm install
+.\node_modules\.bin\vite
+```
+
+🗄️ Database Tables
+
+- `users` — User profiles
+- `topics` — DSA topics
+- `questions` — Question bank
+- `solved_questions` — Solved question tracking
+- `revisions` — Revision schedule
+- `notes` — Per question notes
+- `bookmarks` — Saved questions
+
+👩‍💻 Developer
+
+**Santhiya** — B.Tech CSE
+- Target Role: Software Engineer
+- GitHub: [@SANTHIYAKARUPPANAN](https://github.com/SANTHIYAKARUPPANAN)
