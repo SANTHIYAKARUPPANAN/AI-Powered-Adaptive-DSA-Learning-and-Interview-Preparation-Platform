@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://ai-powered-adaptive-dsa-learning-and-interview-p-production.up.railway.app',,
+  baseURL: 'https://ai-powered-adaptive-dsa-learning-and-interview-p-production.up.railway.app',
 })
 
 export const signup = (data) => API.post('/auth/signup', data)
