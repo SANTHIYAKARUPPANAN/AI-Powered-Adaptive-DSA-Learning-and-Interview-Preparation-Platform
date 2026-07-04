@@ -31,6 +31,4 @@ export const updateNote = (noteId, data) => API.put(`/notes/${noteId}`, data)
 export const deleteNote = (noteId) => API.delete(`/notes/${noteId}`)
 export const createBookmark = (data) => API.post('/bookmarks/', data)
 export const getBookmarks = (userId) => API.get(`/bookmarks/${userId}`)
-export const deleteBookmark = (bookmarkId) => API.delete(`/bookmarks/${bookmarkId}`)
-export const getUser = (userId) => API.get(`/users/${userId}`)
-export const updateUser = (userId, data) => API.put(`/users/${userId}`, data)
+export
